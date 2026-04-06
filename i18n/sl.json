@@ -5,7 +5,7 @@
 		]
 	},
 	"gtag-desc": "Sledenje Google Analitike",
-	"gtag-config-analyticsid": "ID računa Google Analitike (UA-xxxxxxxxx-x ali G-xxxxxxxx)",
+	"gtag-config-analyticsid": "ID računa Google Analitike (GT-xxxxxxx ali GTM-xxxxxxx)",
 	"gtag-config-anonymizeip": "Anonimiziraj IP-naslovov, poslanih Google Analitiki",
 	"gtag-config-enabletcf": "Omogoča podporo za ogrodje preglednosti in soglasja IAB",
 	"gtag-config-honordnt": "Upoštevaj glavo DNT, ki označuje, da uporabnik ne želi biti sleden",
