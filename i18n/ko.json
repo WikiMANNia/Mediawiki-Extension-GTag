@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tensama0415"
+		]
+	},
+	"gtag-desc": "구글 애널리틱스 추적",
+	"gtag-config-analyticsid": "구글 애널리틱스 계정 ID (GT-xxxxxxx 또는 GTM-xxxxxxx)",
+	"gtag-config-anonymizeip": "구글 애널리틱스에 전송된 IP 주소를 익명화",
+	"gtag-config-enabletcf": "IAB 투명성 및 동의 프레임워크 지원을 활성화합니다",
+	"gtag-config-honordnt": "사용자가 추적을 원하지 않는다는 것을 나타내는 DNT 헤더를 존중합니다",
+	"gtag-config-tracksensitivepages": "사용자 로그인 및 환경 설정과 같이 잠재적으로 민감한 페이지에 추적 코드를 포함시킵니다",
+	"right-gtag-exempt": "구글 애널리틱스로 추적되지 않음"
+}
