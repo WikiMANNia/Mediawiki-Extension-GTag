@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cabadeck",
+			"Daisy40"
+		]
+	},
+	"gtag-desc": "Отслеживание Google Analytics",
+	"gtag-config-analyticsid": "ID учётной записи Google Analytics (GT-xxxxxxx или GTM-xxxxxxx)",
+	"gtag-config-anonymizeip": "Анонимизация IP-адресов, отправляемых в Google Analytics",
+	"gtag-config-enabletcf": "Включить поддержку платформы прозрачности и согласия IAB (Transparency & Consent Framework)",
+	"gtag-config-honordnt": "Учитывать заголовок DNT, указывающий на то, что участник не желает, чтобы его отслеживали",
+	"gtag-config-tracksensitivepages": "Включать код отслеживания на потенциально конфиденциальных страницах, таких как Вход и Настройки",
+	"right-gtag-exempt": "Не отслеживаться в Google Analytics"
+}
