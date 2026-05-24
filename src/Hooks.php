@@ -51,9 +51,13 @@ class Hooks implements BeforePageDisplayHook {
 		$enableTCF = $config->get( 'GTagEnableTCF' );
 		$trackSensitive = $config->get( 'GTagTrackSensitivePages' );
 
+		if ( empty( $gaId ) {
+			// extension not configured yet, no-op
+			return;
+		}
 		$validId = preg_match( '/^(?<tagType>[A-Z]+)-[0-9A-Z-]+$/', $gaId, $matches );
-		if ( $gaId === '' || !$validId ) {
-			// extension not configured yet or invalid configuration, no-op
+		if ( !$validId ) {
+			// invalid configuration, no-op
 			return;
 		}
 
